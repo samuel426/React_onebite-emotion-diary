@@ -41,7 +41,6 @@ const DiaryEditor = ({ isEdit, originData }) => {
       }
     }
 
-    onCreate(date, content, emotion);
     navigate("/", { replace: true });
   };
 
@@ -66,8 +65,7 @@ const DiaryEditor = ({ isEdit, originData }) => {
         headText={isEdit ? "일기 수정하기" : "새 일기쓰기"}
         leftChild={<MyButton text={"뒤로가기"} onClick={() => navigate(-1)} />}
         rightChild={
-          isEdit &
-          (
+          isEdit && (
             <MyButton
               text={"삭제하기"}
               type={"negative"}

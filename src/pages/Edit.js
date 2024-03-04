@@ -9,6 +9,10 @@ const Edit = () => {
   const { id } = useParams();
 
   const diaryList = useContext(DiaryStateContext);
+  useEffect(() => {
+    const titleElement = document.getElementsByTagName("title")[0];
+    titleElement.innerHTML = `감정 일기장 - ${id}번 일기 수정`;
+  }, []);
 
   console.log(id);
   useEffect(() => {
