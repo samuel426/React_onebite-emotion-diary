@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# 감정 일기장
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+자바 스크립트로 만들었고, React를 라이브러리를 사용하였다.
 
-## Available Scripts
+초기 화면
 
-In the project directory, you can run:
+![main_screen](https://github.com/samuel426/React_onebite-emotion-diary/assets/49184956/aa8bd385-0334-43a6-aa8f-a96511feee87)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+새 일기 화면
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![new_diary_screen](https://github.com/samuel426/React_onebite-emotion-diary/assets/49184956/5ac6c476-d7df-404d-bffe-f97a8873ddeb)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+일기 편집 화면
 
-### `npm run build`
+![edit_diary_screen](https://github.com/samuel426/React_onebite-emotion-diary/assets/49184956/ee4cbb19-7339-4a7c-b533-4ee4746ad806)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+intellij의 내장 기능으로 의존되어 있는 애들을 그림으로 만들어 봤는데 가독성이 영 떨어져 어떻게 처리해야 할까 고민이다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+구성요소 사진
 
-### `npm run eject`
+![src](https://github.com/samuel426/React_onebite-emotion-diary/assets/49184956/1260d08c-54bc-4964-8b91-cd6bb94cb747)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
